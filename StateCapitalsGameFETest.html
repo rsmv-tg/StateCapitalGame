@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project: State Capitals Game</title>
+
+    <script src="js/StateCapitalsGame.js"> </script>
+
+</head>
+<body>
+
+    <h1>State Capitals Game</h1>
+
+    <form id="gameForm">
+        <label for="userAnswer">What is the capital of <span id="targetStateDisplay"></span>?</label>
+        <input type="text" id="userAnswer" required>
+        <button type="button" onclick="checkAnswer()">Submit Answer</button>
+    </form>
+
+    <div id="resultMessage"></div>
+
+</body>
+</html>
