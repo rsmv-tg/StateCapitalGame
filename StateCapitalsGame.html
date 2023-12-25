@@ -7,12 +7,21 @@
 
     <script src="js/StateCapitalsGame.js"> </script>
 
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
 </head>
-<body>
+<body onload="initUSMap()">
 
     <h1>State Capital Guessing Game</h1>
 
-    <button type="button" onclick="runGame()">Start Game</button>
+    <div> <button type="button" onclick="runGame()">Start Game</button></div>
+
+    <div id="mapContainer" style="height: 400px;"></div>
+    <div id="initMapContainer" style="height: 400px;"></div>
+
+    <script src="js/StateCapitalsGame.js"></script>
 
 
 <footer>
